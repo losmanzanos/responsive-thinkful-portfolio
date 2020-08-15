@@ -8,3 +8,9 @@ function random_bg_color() {
     }
 
 random_bg_color();
+
+history.scrollRestoration = "manual";
+
+$(window).on('beforeunload', function(){
+      $(window).scrollTop(0);
+});
