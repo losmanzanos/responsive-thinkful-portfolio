@@ -82,6 +82,21 @@ footer {
     100%{transform: rotate(0deg)}
 }
 
+#menu {
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    top: 0px;
+    left: 10px;
+}
+
+#menu li a {
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+    color: black;
+    margin-right: 15px;
+}
+
 /*
 =================
 About
@@ -111,15 +126,15 @@ About
     font-family: 'Indie Flower', cursive;
 }
 
-.item {
+#chad .item {
     margin: 10px;
-    padding: 15px 15px 75px 15px;
+    padding: 20px 15px 100px 15px;
 }
 
-.item-double {
-    padding-top: 50px;
-    padding-left: 10px;
-    padding-right: 10px;
+#chad .item-double {
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .rounded {
@@ -176,6 +191,15 @@ a:active {
     cursor: url('Images/icons8-chat-32.png'), default;
 }
 
+#chad h3 {
+    margin-bottom: 0px;
+    font-size: 25px;
+}
+
+#chad p {
+    margin-top: 0px;
+}
+
 /*
 =================
 About Article
@@ -199,7 +223,6 @@ Work
 
 #work {
     height: auto;
-    margin: 0px 10px;
 }
 
 #work h2 {
@@ -218,6 +241,7 @@ Work
 }
 
 .sample {
+    margin-top: 10px;
     width: 100%;
     height: auto;
 }
@@ -232,8 +256,12 @@ Work
     outline: solid black;
     background-color: white;
     width: 200px;
-    padding: 10px 0px;
-    margin: 15px auto 0px auto;
+    padding: 10px;
+    margin: 10px auto 5px auto;
+}
+
+#work .item {
+    margin: 0px 10px;
 }
 
 /*
@@ -243,8 +271,44 @@ Contact
 */
 
 #contact {
+    border: solid black;
+    display: flex;
+    flex-direction: column;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQamah8XXEm69awwyKqJUBb5bR-U6OtHIkUdw&usqp=CAU);
+    margin-top: 10px;
+}
+
+#contact h2 {
+    font-family: 'Beth Ellen', cursive;
+    font-size: 40px;
+}
+
+#contact p {
+    font-size: 30px;
+}
+
+#contact form input, textarea {
+    display: block;
+    margin: 10px auto;
+    border: solid rgb(251, 107, 170);
+    font-family: 'Indie Flower', cursive;
+}
+
+#contact textarea {
+    width: 200px;
+}
+
+.actions li {
+    font-size: 20px;
+}
+
+#social {
     text-align: center;
     padding-bottom: 20px;
+}
+
+#social p {
+    font-family: 'Oswald', sans-serif;
 }
 
 #rocket img {

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>chad moravec</title>
+    <link href="https://fonts.googleapis.com/css2?family=Beth+Ellen&family=Oswald:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Open+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css">
@@ -13,17 +14,24 @@
 
     <header id="home">
         <h1>hello, i'm chad.</h1>
-        <a href="#about heading" id="about-btn"><img src="Images/arrow.png" alt="down"></a>
+        <a href="#chad" id="about-btn"><img src="Images/arrow.png" alt="down"></a>
+        <nav>
+            <ul id="menu">
+                <li><a href="#about">about</a></li>
+                <li><a href="#work">work</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
         <div id="chad">
             <article id="about">
                 <div class="wrapper">
-                    <h2 id="about heading">about</h2>
+                    <h2>about</h2>
                     <div class='group'>
                         <div class='item-double'>
-                            <h3>i make things with code...</h3><br>
+                            <h3>i make things. with code...</h3><br>
                             
                             <p>i'm a big fan of the following:</p>
 
@@ -35,7 +43,7 @@
                                 <li>💻</li>
                             </ul>
 
-                            <p>i'm also based out of denver, co., and i'm powered by lots and lots of coffee... when i'm not hacking away on my computer, i enjoy making art, and playing with my pup.
+                            <p>i'm based out of denver, co, and i'm powered by lots and lots of coffee... when i'm not hacking away on my computer, i enjoy making art, and playing with my pup.
                             </p>
                             <p>   
                             feel like i'd be a good fit for your next project? you're probably right! let's <a href="mailto:dahc.reverse@gmail.com?subject=YOU%20ROCK!" id="chat">chat</a>!</p>
@@ -52,8 +60,6 @@
         </div>
         
         <div id="work">
-            <h2>blah.</h2>
-            <h3>my work will be here later...</h3>
             <section>
                 <div class="group">
                     <div class="item">
@@ -93,8 +99,31 @@
                 </div>
             </section>
         </div>
-        
-        <div id="contact">
+
+        <section id="contact">
+            <div>
+                <header>
+                    <h2>say hello.</h2>
+                    <p>👋</p>
+                </header>
+                <div>
+                    <form action="https://formspree.io/mnqdjkba" method="POST" target="_blank">
+                        <input type="text" name="name" placeholder="name" />
+
+                        <input type="email" name="email" placeholder="email" />
+                        
+                        <textarea name="message" placeholder="message" rows="6"></textarea>
+                    
+                    <ul class="actions">
+                        <li><input type="submit" value="send" style="font-family: 'Creepster', cursive; color:rgb(251, 107, 170)"></li>
+                    </ul>
+
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <div id="social">
             <p>contact me at:<br>
             <a href="mailto:dahc.reverse@gmail.com?subject=YOU%20ROCK!">dahc.reverse@gmail.com</a></p>
             <p>my <a href="https://github.com/losmanzanos" target="_blank">GitHub</a> and <a href="https://www.linkedin.com/in/chad-moravec/" target="_blank">LinkedIn</a></p>
