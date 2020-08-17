@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-
+<html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>page not found — chad moravec</title>
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
@@ -10,44 +10,51 @@
       body {
         background-color: rgb(255, 212, 113);
         padding-top: 50px;
-        overflow: none;
+        overflow: hidden;
       }
       body main .heading-block {
-          max-width: 500px;
-          text-decoration: none;
-          text-align: center;
-          border: solid;
-          background-color: white;
+        max-width: 500px;
+        text-decoration: none;
+        text-align: center;
+        border: solid;
+        background-color: white;
       }
 
       body main .heading-block a {
-          color: rgb(236, 101, 101);
-          font-weight: bolder;
+        color: rgb(236, 101, 101);
+        font-weight: bolder;
       }
 
       body main .heading-block a:link {
-          text-decoration: none;
+        text-decoration: none;
       }
 
       .image {
-          padding-top: 25px;
-          max-width: 250px;
-          height: auto;
+        padding-top: 25px;
+        max-width: 250px;
+        height: auto;
       }
 
       h1 {
-          font-family: 'Anton', sans-serif;
+        font-family: 'Anton', sans-serif;
       }
 
       p {
-          font-family: 'Open Sans', sans-serif;
+        font-family: 'Open Sans', sans-serif;
+      }
+
+      .heading-block {
+        margin: auto;
+      }
+
+      * {
+        text-align: center;
       }
     </style>
   </head>
 
   <body>
     <main>
-      <center>
         <div class="heading-block">
           <h1 class="heading">Hmmm, that page does not exist...</h1>
             <p class="text">
@@ -55,9 +62,8 @@
             </p>
         </div>
         <div class="image-container">
-          <img class="image" src="https://i.imgur.com/cLCH8vp.png"/>
+          <img class="image" src="https://i.imgur.com/cLCH8vp.png" alt="sorry"/>
         </div>
-      </center>
     </main>
   </body>
 </html>

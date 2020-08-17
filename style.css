@@ -196,11 +196,18 @@ a:active {
     font-size: 30px;
 }
 
-#chad p {
+#rad {
+    font-family: 'Creepster', cursive;
+    color:rgb(251, 107, 170);
+    font-size: 25px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+#alt {
     font-family: 'Pangolin', cursive;
     margin-top: 0px;
     font-size: 20px;
-    padding: 0px 200px;
 }
 
 /*
@@ -271,6 +278,11 @@ Work
     cursor: url('Images/hot-dog.png'), default;
 }
 
+#work p {
+    font-family: 'Pangolin', cursive;
+    font-size: 20px;
+}
+
 /*
 =================
 Contact
@@ -316,6 +328,7 @@ Contact
 
 #social p {
     font-family: 'Oswald', sans-serif;
+    font-size: 18px;
 }
 
 #rocket img {
