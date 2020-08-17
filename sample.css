@@ -1,0 +1,214 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    background-image: url(Images/BW-bg.jpg);
+    overflow: hidden;
+}
+
+#visible {
+    position: absolute;
+    margin: 0px;
+    top: 20px;
+    font-family: 'Creepster', cursive;
+    font-size: 50px;
+    color: rgb(251, 107, 170);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+.flexbox-container {
+    height: 70vh;
+    display: flex;
+    background-color: pink;
+    opacity: 95%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+    border-top: solid black;
+    border-bottom: solid black;
+}
+
+.flexbox-item-1 {
+    text-align: center;
+    margin: auto 50px;
+    flex: 2;
+} 
+
+.flexbox-item-2 {
+    flex: 1;
+    padding: 10px;
+    margin-right: 43px;
+}
+
+img {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+#hidden {
+    display: none;
+}
+
+p {
+    font-family: 'Oswald', sans-serif; 
+}
+
+ul {
+    list-style: none;
+    padding: 10px;
+    text-align: center;
+}
+
+ul li {
+    display: inline;
+    font-size: 25px;
+}
+
+hr {
+    width: 200px;
+    height: 55px;
+    border: none;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-image: url("Images/snake.png");
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: rgb(10, 97, 212);
+}
+
+a:visited {
+    color: rgb(143, 85, 197);
+}
+
+a:hover {
+    color: red;
+    font-weight: bolder;
+}
+
+a:active {
+    color: rgb(255, 50, 255);
+}
+
+#home {
+    height: 75px;
+    width: auto;
+    position: fixed;
+    top: 10px;
+    left: 0px;
+    animation: thingy 3s infinite;
+}
+
+@keyframes thingy {
+  0%{transform: rotate(0deg)}
+  1%{transform: rotate(9deg)}
+  2%{transform: rotate(0deg)}
+  3%{transform: rotate(-9deg)}
+  4%{transform: rotate(0deg)}
+  5%{transform: rotate(15deg)}
+  6%{transform: rotate(0deg)}
+  7%{transform: rotate(-15deg)}
+  8%{transform: rotate(0deg)}
+  100%{transform: rotate(0deg)}
+}
+
+#home:hover {
+  content: url(Images/Go\ Home.png);
+}
+
+#sample {
+    width: 70%;
+}
+
+/*Media Queries!*/
+
+@media all and (max-width: 800px) {
+    body {
+        overflow: auto;
+        height: 100vh;
+        background-image: none;
+        background-color: pink;
+    }
+
+    .flexbox-container {
+        height: 100vh;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        flex-direction: column;
+        padding: 0px;
+        border-top: none;
+        border-bottom: none;
+        opacity: 100%;
+    }
+
+    .flexbox-item-1 {
+        width: 50%;
+        margin-top: 5px;
+        padding: 0px 15px;
+    }
+
+    .flexbox-item-2 {
+        width: 35%;
+        margin-right: 0px;
+        margin-bottom: 0px;
+    }
+
+    #visible {
+        opacity: 0;
+    }
+
+    h3 {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    #hidden {
+        display: inline;
+        font-family: 'Creepster', cursive;
+        font-size: 40px;
+        color: rgb(251, 107, 170);
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: black;
+    }
+
+    #about {
+        align-items: center;
+        justify-content: center;
+        padding-top: 50px;
+        text-align: center;
+    }
+
+    #sample {
+        width: 100%;
+    }
+
+    .flexbox-item-1 {
+        text-align: center;
+        flex: 1;
+    } 
+    
+    .flexbox-item-2 {
+        flex: 2;
+        padding: 10px;
+        text-align: center;
+    }
+
+    #home {
+        height: 50px;
+    }
+}
+
+@media all and (max-width: 1500px) {
+    #sample {
+        width: 85%;
+    }
+}

@@ -87,7 +87,7 @@ footer {
     padding: 0px;
     margin: 0px;
     top: 0px;
-    left: 10px;
+    padding-left: 10px;
 }
 
 #menu li a {
@@ -127,8 +127,8 @@ About
 }
 
 #chad .item {
-    margin: 10px;
-    padding: 20px 15px 100px 15px;
+    margin: 150px;
+    padding: 20px;
 }
 
 #chad .item-double {
@@ -193,11 +193,14 @@ a:active {
 
 #chad h3 {
     margin-bottom: 0px;
-    font-size: 25px;
+    font-size: 30px;
 }
 
 #chad p {
+    font-family: 'Pangolin', cursive;
     margin-top: 0px;
+    font-size: 20px;
+    padding: 0px 200px;
 }
 
 /*
@@ -262,6 +265,10 @@ Work
 
 #work .item {
     margin: 0px 10px;
+}
+
+#work a:hover {
+    cursor: url('Images/hot-dog.png'), default;
 }
 
 /*
@@ -346,4 +353,47 @@ Media Queries
     .item-double {
         padding-top: 10px;
     }
+}
+
+@media all and (max-width: 600px) {
+    header h1 {
+        font-size: 42px;
+    }
+    
+    nav {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    nav ul {
+        width: 95%;
+        position: absolute;
+        justify-content: center;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    #menu {
+        display: flex;
+        text-align: center;
+    }
+
+    #about-btn {
+        opacity: 0;
+    }
+
+    #chad p {
+        margin-top: 0px;
+        font-size: 16px;
+        padding: 0px 20px;
+    }
+  }
+
+@media all and (max-width: 1200px) {
+  #chad p {
+    font-family: 'Pangolin', cursive;
+    margin-top: 0px;
+    font-size: 20px;
+    padding: 0px 20px;
+  }
 }
