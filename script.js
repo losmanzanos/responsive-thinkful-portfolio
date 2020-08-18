@@ -8,5 +8,3 @@ function random_bg_color() {
     }
 
 random_bg_color();
-
-history.scrollRestoration = "manual";
