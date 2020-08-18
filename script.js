@@ -8,3 +8,9 @@ function random_bg_color() {
     }
 
 random_bg_color();
+
+function lowerCase() {
+    document.getElementById("body").innerHTML = document.getElementById("body").innerHTML.toLowerCase();
+}
+
+lowerCase();

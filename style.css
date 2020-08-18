@@ -30,7 +30,7 @@ Home
 */
 
 #home {
-    background-image: url(Images/dancing.gif);
+    background-image: url(images/dancing.gif);
     background-repeat: no-repeat;
     background-position: center;
     background-color: rgb(251, 107, 170);
@@ -105,7 +105,7 @@ About
 
 #chad {
     min-height: 100vh;
-    background: url(Images/BW-bg.jpg);
+    background: url(images/BW-bg.jpg);
     padding-top: 100px;
     padding-bottom: 100px;
 }
@@ -170,7 +170,7 @@ hr {
     margin: auto;
     margin-top: 10px;
     margin-bottom: 20px;
-    background-image: url("Images/snake.png");
+    background-image: url("images/snake.png");
 }
 
 a {
@@ -195,7 +195,7 @@ a:active {
 }
 
 #chat:hover {
-    cursor: url('Images/icons8-chat-32.png'), default;
+    cursor: url('images/icons8-chat-32.png'), default;
 }
 
 #chad h3 {
@@ -264,7 +264,7 @@ Work
 }
 
 .sample:hover {
-    content: url(Images/sample.jpg);
+    content: url(images/sample.jpg);
     width: 100%;
     height: auto;
 }
@@ -282,7 +282,7 @@ Work
 }
 
 #work a:hover {
-    cursor: url('Images/hot-dog.png'), default;
+    cursor: url('images/hot-dog.png'), default;
 }
 
 #work p {
@@ -329,7 +329,7 @@ Contact
 }
 
 .actions li input:hover {
-    cursor: url('Images/icons8-paper-plane-32.png'), default;
+    cursor: url('images/icons8-paper-plane-32.png'), default;
 }
 
 #social {
