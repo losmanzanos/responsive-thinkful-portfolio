@@ -328,7 +328,7 @@ Contact
     font-size: 20px;
 }
 
-.actions:hover {
+.actions li:hover {
     cursor: url('Images/icons8-paper-plane-32.png'), default;
 }
 
