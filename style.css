@@ -137,6 +137,13 @@ About
     padding-right: 20px;
 }
 
+.item-double p {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'Pangolin', cursive;
+    font-size: 22px;
+}
+
 .rounded {
     border-radius: 25px;
     width: 100%;
