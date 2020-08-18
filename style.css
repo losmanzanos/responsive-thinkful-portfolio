@@ -328,6 +328,10 @@ Contact
     font-size: 20px;
 }
 
+.actions:hover {
+    cursor: url('Images/icons8-paper-plane-32.png'), default;
+}
+
 #social {
     text-align: center;
     padding-bottom: 20px;
