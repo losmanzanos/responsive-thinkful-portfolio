@@ -19,6 +19,7 @@ body {
 
 .flexbox-container {
     height: 70vh;
+    width: 100%;
     display: flex;
     background-color: pink;
     opacity: 95%;
@@ -51,6 +52,9 @@ img {
 
 #hidden {
     display: none;
+    position: relative;
+    width: 300px;
+    margin: auto;
 }
 
 h6 {
@@ -152,7 +156,7 @@ Media Queries!
 
     .flexbox-container {
         height: 100vh;
-        margin-top: 0px;
+        margin-top: 150px;
         margin-bottom: 0px;
         flex-direction: column;
         padding: 0px;
@@ -162,13 +166,13 @@ Media Queries!
     }
 
     .flexbox-item-1 {
-        width: 50%;
-        margin-top: 5px;
+        width: 75%;
+        margin-top: 40px;
         padding: 0px 15px;
     }
 
     .flexbox-item-2 {
-        width: 35%;
+        width: 85%;
         margin-right: 0px;
         margin-bottom: 0px;
     }
@@ -222,4 +226,11 @@ Media Queries!
     #sample {
         width: 85%;
     }
+}
+
+@media all and (max-width: 800px) {
+    .flexbox-container {
+        text-align: center;
+        margin-top: 75px;
+    } 
 }
